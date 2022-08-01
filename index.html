@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Analisador de números</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <header>
+            <h1>Analisador de números</h1>
+        </header>
+        <main>
+            <div class="reset">
+                <ion-icon size="large" name="reload-sharp"></ion-icon>
+            </div>
+
+            <div class="header-num">
+                <label>Adicione um número entre <min></min> e <max></max></label>
+                <br />
+
+                <input id="input-num" min="0" max="100" type="number" name="ticket-num" />
+                <input onclick="Adicionar()" id="btn-num" class="btn-secondary" type="button" value="Adicionar" />
+            </div>
+
+            <div class="main-num">
+                <p>números adicionados:</p>
+
+                <div id="show-array" class="text-area"></div>
+
+                <p class="infSpan display-none">adicione mais um número</p>
+
+                <input onclick="GenerateReport()" id="btn-report" class="btn-primary btn-disabled" type="button" value="Gerar relatório" />
+                <label class="infLabel display-none">Aperte (Ctrl + Shift + F) </label>
+            </div>
+
+            <div id="div-report" class="footer-num display-none">
+                <label>Relatório do Array de números:</label>
+
+                <p class="show-report">Me contrata!!!</p>
+            </div>
+        </main>
+
+        <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>

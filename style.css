@@ -1,0 +1,172 @@
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"] {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+    margin: 0;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h1 {
+    font-size: 46px;
+}
+
+body {
+    background-color: #121212;
+    color: antiquewhite;
+}
+
+header {
+    background-color: #3d3d3d;
+    width: 100vw;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+main {
+    border-radius: 10px;
+    padding: 30px;
+    width: 800px;
+    background-color: #3d3d3d;
+    display: block;
+    margin: 30px auto;
+}
+
+.infLabel {
+    font-size: 12px;
+    color: #979797;
+    display: block;
+    margin-top: -10px;
+    margin-left: 24px;
+}
+.infSpan {
+    font-size: 12px;
+    color: #979797;
+    display: block;
+    
+   
+}
+
+.header-num {
+    width: 400px;
+    margin: 0 auto;
+}
+
+#input-num {
+    text-align: center;
+    width: 120px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 16px;
+    margin: 10px auto;
+    background-color: #121212;
+    color: aqua;
+    border: none;
+    border-radius: 4px;
+    
+    
+}
+
+.main-num {
+    width: 400px;
+    margin: 0 auto;
+}
+
+.btn-secondary {
+    margin: 10px;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(69, 175, 179);
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-secondary:hover {
+    transform: scaleY(1.02);
+    background-color: aqua;
+}
+
+.btn-primary {
+    margin: 10px 10px 20px 0;
+    width: 180px;
+    height: 45px;
+    line-height: 45px;
+    background-color: rgb(69, 179, 69);
+    color: #121212;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    transform: scaleY(1.02);
+    background-color: rgb(0, 255, 98);
+}
+
+.btn-disabled {
+    background-color: #585858;
+    color: #818181;
+    cursor: auto;
+}
+
+.btn-disabled:hover {
+    background-color: #585858;
+    color: #818181;
+    transform: scaleY(1);
+}
+
+.display-none {
+    display: none;
+}
+
+.text-area {
+    margin: 10px 10px 0 0;
+    padding: 10px;
+    background-color: #121212;
+    color: aqua;
+    width: 120px;
+    min-height: 45px;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.footer-num {
+    width: 400px;
+    margin: 10px auto;
+}
+
+.show-report {
+    width: 400px;
+    padding: 10px;
+    background-color: #121212;
+    color: rgb(62, 187, 187);
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px;
+}
+
+.reset {
+    width: 40px;
+    height: 43px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    float: right;
+    color: aqua;
+    cursor: pointer;
+}
